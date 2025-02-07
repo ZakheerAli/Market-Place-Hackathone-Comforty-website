@@ -5,7 +5,7 @@ import { useCart } from "../context/cartcontext";
 import { useWishlist } from "../context/wishlistcontext";
 import { urlFor } from "@/sanity/lib/image";
 
-export default function ProductCard({ product }: { product: any }) {
+export default function ProductCard({ product }: { product }) {
   const { addToCart } = useCart(); // Access `addToCart` function from Cart Context
   const { addToWishlist } = useWishlist(); // Access `addToWishlist` function from Wishlist Context
 
