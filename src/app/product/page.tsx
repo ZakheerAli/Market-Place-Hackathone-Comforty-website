@@ -1,6 +1,5 @@
 import { client } from "@/sanity/lib/client";
 import NewsLetter from "../components/newsletter";
-import Link from "next/link";
 import ProductCard from "../components/productCard";
 interface productType {
   title: string;
