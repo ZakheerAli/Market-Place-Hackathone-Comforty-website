@@ -6,8 +6,10 @@ import { urlFor } from "@/sanity/lib/image";
 import { useCart } from "@/app/context/cartcontext";
 import { useEffect, useState } from "react";
 import { useWishlist } from "@/app/context/wishlistcontext";
-
-export default function ProductDetail({ params }: { params: { id: string } }) {
+interface ProductPageProps {
+  params: { id: string };
+}
+export default function ProductDetail({ params }: ProductPageProps) {
   const { addToCart } = useCart();
   const { addToWishlist } = useWishlist();
   const [product, setProduct] = useState<any>(null);
