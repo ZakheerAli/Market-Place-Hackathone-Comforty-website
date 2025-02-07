@@ -1,5 +1,5 @@
 {
-  "name": "resturant-website",
+  "name": "comforty-e-commerce-wesbite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/vision": "*",
+  "sanity": "*",
+  "sweetalert2": "*",
+  "@clerk/nextjs": "*",
+  "react-toastify": "*"
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next": "15.1.2"
