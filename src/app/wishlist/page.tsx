@@ -43,7 +43,7 @@ export default function Wishlist() {
         </div>
         {progress === 100 && (
           <p className="text-center text-red-500 mt-2 text-sm">
-            You've reached the maximum wishlist capacity!
+            You have reached the maximum wishlist capacity!
           </p>
         )}
       </div>
