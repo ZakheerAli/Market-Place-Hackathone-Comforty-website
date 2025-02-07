@@ -15,7 +15,7 @@ console.log(res)
     <div className="w-full h-[58px] flex items-center justify-between xs:gap-6 xs:px-6 xs:mt-9">
     <p className=" text-[35px] md:text-[50px] font-semibold underline decoration-[#ae4102]">Top Categories</p>
  </div> 
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">{res.map((elem)=>{
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">{res.map((elem:unknown)=>{
     return(
       <div key={elem._id} className="w-full  xs:h-[300px] xs:w-[300px]  md:h-[424px] flex flex-col gap-3 xs:px-10 md:px-2  relative">
                 <Image
