@@ -24,7 +24,7 @@ export default function ProductDetail({ params }: { params: Promise<{ id: string
   const { addToWishlist } = useWishlist();
 
   // State to hold the product data fetched from the database
-  const [product, setProduct] = useState<any>(null);
+  const [product, setProduct] = useState<unknown>(null);
 
   // State to handle the loading state while fetching data
   const [loading, setLoading] = useState(true);
