@@ -4,7 +4,7 @@ import { useCart } from "../context/cartcontext";
 import { urlFor } from "@/sanity/lib/image"; 
 import { useWishlist } from "../context/wishlistcontext"; 
 import { useRouter } from "next/navigation"; 
-import { ToastContainer, toast } from "react-toastify"; 
+
 
 export default function Cart() {
   const { cart, updateQuantity, removeFromCart } = useCart(); 
@@ -20,7 +20,7 @@ export default function Cart() {
 
   return (
     <div className="px-6 md:px-16 py-10 md:py-20 bg-gray-50 min-h-screen">
-      <ToastContainer />
+
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-2/3">
           <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">Your Cart</h1>
