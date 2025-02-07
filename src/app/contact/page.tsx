@@ -21,7 +21,7 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="text-center text-gray-600 text-lg mt-3">
-          Have any questions? Reach out to us, and we'll get back to you soon!
+          Have any questions? Reach out to us, and we will get back to you soon!
         </p>
 
         <div className="flex flex-col lg:flex-row mt-10 gap-10">
