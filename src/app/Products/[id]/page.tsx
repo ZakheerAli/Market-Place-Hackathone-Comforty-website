@@ -100,7 +100,8 @@ export default function ProductDetail({ params }: { params: Promise<{ id: string
             <button
               onClick={() =>
                 addToCart({
-                  id: product._id, // Product ID
+                  title:product.title,
+                  _id: product._id, // Product ID
                   name: product.title, // Product name
                   price: product.price, // Product price
                   image: urlFor(product.image).url(), // Product image URL
