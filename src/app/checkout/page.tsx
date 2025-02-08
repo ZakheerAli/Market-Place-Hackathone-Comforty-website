@@ -137,7 +137,7 @@ export default function Checkout() {
         icon: "success",
         confirmButtonText: "OK",
       });
-    } catch (error:undefined) {
+    } catch (error) {
       console.error("Error creating order:", error.message || error);
     }
 
