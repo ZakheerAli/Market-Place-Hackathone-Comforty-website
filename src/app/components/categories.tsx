@@ -1,4 +1,5 @@
 import Image from "next/image";
+import client from "@/sanity/client"; // Adjust the path if necessary
 
 // Define the Category type
 type Category = {
