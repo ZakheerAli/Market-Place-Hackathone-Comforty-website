@@ -19,10 +19,10 @@ export default function NewsLetter() {
         <div><h1 className=" text-[27px] md:text-[4vw] font-semibold">Follow products and discounts on Instagram</h1></div>
         <div className="space-x-5 space-y-5">
         <Image src="/Image.png" alt="image1" width={170} height={200} className="inline-block hover:scale-105"/>
-        <Image src="/Image (1).png" alt="image2" width={170} height={200} className="inline-block hover:scale-105"/>
+        <Image src="/Image (6).png" alt="image2" width={170} height={200} className="inline-block hover:scale-105"/>
         <Image src="/Image (2).png" alt="image3" width={170} height={200} className="inline-block hover:scale-105"/>
         <Image src="/Image (3).png" alt="image4" width={170} height={200} className="inline-block hover:scale-105"/>
-        <Image src="/Image (6).png" alt="image5" width={170} height={200} className="inline-block hover:scale-105"/>
+        <Image src="/Image (5).png" alt="image5" width={170} height={200} className="inline-block hover:scale-105"/>
         <Image src="/Image (4).png" alt="image5" width={170} height={200} className="inline-block hover:scale-105"/>
 
         </div>

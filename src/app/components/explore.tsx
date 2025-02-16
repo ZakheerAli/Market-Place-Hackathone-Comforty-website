@@ -35,24 +35,4 @@ export default function Explore(){
 
 
 
-          //      <img
-          //       src="./Image (2).png"
-          //         alt=""
-          //         className=" md:h-[548px] object-cover hover:scale-105 duration-150 cursor-pointer rounded-md"
-          //       />
-
-          //       <img
-          //       src="./Image (3).png"
-          //       alt=""
-          //       className="hover:scale-105 duration-150 cursor-pointer"
-          //     />
-          //     <img
-          //     src="./silver (2).png"
-          //     alt=""
-          //     className="hover:scale-105 duration-150 cursor-pointer rounded-md"
-          //   />
-          //   <img
-          //   src="./silver (1).png"
-          //   alt=""
-          //   className="hover:scale-105 duration-150 cursor-pointer rounded-md "
-          // />
+         
