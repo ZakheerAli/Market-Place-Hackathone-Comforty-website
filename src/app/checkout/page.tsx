@@ -103,6 +103,7 @@ export default function Checkout() {
       cartItem: cartItem.map((item) => ({
         _type: "reference",
         _ref: item._id, // Ensure item._id is valid from Sanity
+        
       })),
       total: subTotal,
       orderDate: new Date().toISOString(),
