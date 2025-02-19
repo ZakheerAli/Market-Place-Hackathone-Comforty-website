@@ -100,10 +100,10 @@ export default function Checkout() {
       zipCode: formValues.zipCode,
       phone: formValues.phone,
       email: formValues.email,
-      cartItem: cartItem.map((item) => ({
+      cartItems: cartItem.map((item) => ({
         _type: "reference",
         _ref: item._id, // Ensure item._id is valid from Sanity
-        
+        key:item._id,
       })),
       total: subTotal,
       orderDate: new Date().toISOString(),
